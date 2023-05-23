@@ -2,15 +2,15 @@ Instructions
 
 |Approach | 2d Detector| 2d keypoints format(input) | 3d Detector  | 3d keypoints format(output) |
 | :-------------: | :-------------: |:-------------:| :-----:|:-----:|
-| *openpose*  | openpose*  | H3.6m | Videopose3D(pretrained_h36m_cpn.bin) | H3.6m |
+| *openpose*  | openpose[^1]  | H3.6m | Videopose3D(pretrained_h36m_cpn.bin) | H3.6m |
 | *detectron* | detectron | COCO  | Videopose3D(pretrained_h36m_detectron_coco.bin) | H3.6m |
 | *mpcoco* | mediapipe | COCO  | Videopose3D(pretrained_h36m_detectron_coco.bin) | H3.6m |
-| *mp3d* | mediapipe | COCO | mediapipe | H3.6m (after adjustment)**|
+| *mp3d* | mediapipe | COCO | mediapipe | H3.6m (after adjustment)[^2]|
 
-##### \* Midhip and spine were artificially created based on adjacent keypoints.
+[^1]: Midhip and spine were artificially created based on adjacent keypoints.
 Thorax was moved on the height of shoulders.
 
-\** Midhip, Spine, Thorax were artificially created based on adjacent keypoints.
+[^2]: Midhip, Spine, Thorax were artificially created based on adjacent keypoints.
 
 
 
