@@ -10,6 +10,7 @@ Instructions
 [^1]: Midhip and spine is artificially created based on adjacent keypoints. 
 
 \*
+
 Run on Google Colab :
 https://colab.research.google.com/drive/1s7ASDuQjFfxZzCKvrpeWO1LBhn26Nd-u?usp=share_link
 
