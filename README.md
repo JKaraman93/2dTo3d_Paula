@@ -12,4 +12,5 @@ https://colab.research.google.com/drive/1s7ASDuQjFfxZzCKvrpeWO1LBhn26Nd-u?usp=sh
 
 ![](img/fullbody_detectron.png =250x250)
 
+<img src="img/fullbody_detectron.png" width="100" height="100">
 
