@@ -10,5 +10,6 @@ Instructions
 Run on Google Colab :
 https://colab.research.google.com/drive/1s7ASDuQjFfxZzCKvrpeWO1LBhn26Nd-u?usp=share_link
 
-<img src="img/fullbody_detectron.png" width="400" height="450">
+<img src="img/fullbody_detectron.png" width="400" height="450"><img src="img/fullbody_detectron.png" width="400" height="450">
+
 
