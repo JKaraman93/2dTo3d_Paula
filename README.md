@@ -7,7 +7,7 @@ Instructions
 | *mpcoco* | mediapipe | COCO  | Videopose3D(pretrained_h36m_detectron_coco.bin) | H3.6m |
 | *mp3d* | mediapipe | COCO | mediapipe | H3.6m (after adjustment)|
 
-[^1] midhip and spine is artificially created based on adjacent keypoints. 
+[^1]: midhip and spine is artificially created based on adjacent keypoints. 
 
 Run on Google Colab :
 https://colab.research.google.com/drive/1s7ASDuQjFfxZzCKvrpeWO1LBhn26Nd-u?usp=share_link
