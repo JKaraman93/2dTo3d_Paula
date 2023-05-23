@@ -7,7 +7,7 @@ Instructions
 | *mpcoco* | mediapipe | COCO  | Videopose3D(pretrained_h36m_detectron_coco.bin) | H3.6m |
 | *mp3d* | mediapipe | COCO | mediapipe | H3.6m (after adjustment)**|
 
-\* Midhip and spine were artificially created based on adjacent keypoints.
+##### \* Midhip and spine were artificially created based on adjacent keypoints.
 Thorax was moved on the height of shoulders.
 
 \** Midhip, Spine, Thorax were artificially created based on adjacent keypoints.
