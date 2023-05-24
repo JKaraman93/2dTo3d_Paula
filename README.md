@@ -1,22 +1,22 @@
 
 ## Task
-> Evaluate pretrained model on signing data.
+> 3D pose estimation after 2D keypoints detection on signing videos.
 
-## Instructions
+## Models
 |Approach | 2d Detector| 2d keypoints format(input) | 3d Detector  | 3d keypoints format(output) |
 | :-------------: | :-------------: |:-------------:| :-----:|:-----:|
 | *openpose*  | openpose[^1]  | H3.6m | Videopose3D(pretrained_h36m_cpn.bin) | H3.6m |
-| *detectron* | detectron | COCO  | Videopose3D(pretrained_h36m_detectron_coco.bin) | H3.6m |
+| *detectron* | detectron | COCO[^2]  | Videopose3D(pretrained_h36m_detectron_coco.bin) | H3.6m |
 | *mpcoco* | mediapipe | COCO  | Videopose3D(pretrained_h36m_detectron_coco.bin) | H3.6m |
-| *mp3d* | mediapipe | COCO | mediapipe | H3.6m [^2]|
+| *mp3d* | mediapipe | COCO | mediapipe | H3.6m [^3]|
 
-[^1]: Midhip and Spine were artificially created based on adjacent keypoints.
-Thorax was moved on the height of shoulders.
+[^1]: Midhip and Spine were artificially generated using information from adjacent keypoints.
+The thorax was lowered to the height of the shoulders, with a movement of -35 pixels.
+[^2]: In those approaches, the predicted skeleton is shifted by 6cm along the z-axis(height).
+[^3]: Midhip, Spine, Thorax and Headtop were artificially generated using information from adjacent keypoints.
 
-[^2]: Midhip, Spine, Thorax and Headtop were artificially created based on adjacent keypoints.
 
-
-
+## Demo Instructions
 Run on Google Colab :
 https://colab.research.google.com/drive/1s7ASDuQjFfxZzCKvrpeWO1LBhn26Nd-u?usp=share_link
 
