@@ -12,7 +12,7 @@
 
 [^1]: Midhip and Spine were artificially generated using information from adjacent keypoints.
 The thorax was lowered to the height of the shoulders, with a movement of -35 pixels.
-[^2]: In those approaches, the predicted skeleton is shifted by 6cm along the z-axis(height).
+[^2]: In COCO approaches, the predicted skeleton is shifted by 6cm along the z-axis(height).
 [^3]: Midhip, Spine, Thorax and Headtop were artificially generated using information from adjacent keypoints.
 
 
