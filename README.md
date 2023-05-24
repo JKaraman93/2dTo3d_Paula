@@ -15,11 +15,13 @@ The thorax was lowered to the height of the shoulders, with a movement of -35 pi
 [^2]: In COCO approaches, the predicted skeleton is shifted by 6cm along the z-axis(height).
 [^3]: Midhip, Spine, Thorax and Headtop were artificially generated using information from adjacent keypoints.
 
+## Keypoints Format
+<img src="img/fullbody_coco.png" width="300" height="400"><img src="img/fullbody_h36m.png" width="300" height="400">
+
 
 ## Demo Instructions
 Run on Google Colab :
 https://colab.research.google.com/drive/1s7ASDuQjFfxZzCKvrpeWO1LBhn26Nd-u?usp=share_link
 
-<img src="img/fullbody_coco.png" width="300" height="400"><img src="img/fullbody_h36m.png" width="300" height="400">
 
 
