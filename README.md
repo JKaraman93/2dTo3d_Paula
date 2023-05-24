@@ -2,6 +2,8 @@
 ## Task
 > 3D pose estimation after 2D keypoints detection on signing videos.
 
+
+
 ## Models
 |Approach | 2d Detector| 2d keypoints format(input) | 3d Detector  | 3d keypoints format(output) |
 | :-------------: | :-------------: |:-------------:| :-----:|:-----:|
@@ -16,7 +18,10 @@ The thorax was lowered to the height of the shoulders, with a movement of -35 pi
 [^3]: Midhip, Spine, Thorax and Headtop were artificially generated using information from adjacent keypoints.
 
 ## Keypoints Format
+* 17 keypoints
 <img src="img/fullbody_coco.png" width="300" height="400"><img src="img/fullbody_h36m.png" width="300" height="400">
+
+## Results 
 
 
 ## Demo Instructions
