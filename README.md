@@ -19,7 +19,7 @@ The thorax was lowered to the height of the shoulders, with a movement of -35 pi
 
 ## Keypoints Format
 * 17 keypoints
-* 
+ 
 <img src="img/fullbody_coco.png" width="300" height="400"><img src="img/fullbody_h36m.png" width="300" height="400">
 
 ## Results 
