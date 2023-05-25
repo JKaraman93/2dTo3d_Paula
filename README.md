@@ -1,7 +1,6 @@
 
 ## Task
-> 3D pose estimation after 2D keypoints detection on signing videos.
-
+> 3D pose estimation after 2D keypoints detection on sign language videos.
 
 
 ## Models
