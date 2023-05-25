@@ -22,6 +22,8 @@ The thorax was lowered to the height of the shoulders, with a movement of -35 pi
 <img src="img/fullbody_coco.png" width="300" height="400"><img src="img/fullbody_h36m.png" width="300" height="400">
 
 ## Results 
+| ||EUDs1|||||EUDs2|||||EUDs3|||||EUDs4|||||EUDs5|||
+
 | |MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|
 | :---: |  :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 |openpose|91|59|37|45|78|53|33|33|101|57|39|61|80|51|25|47|96|58|48|40|
