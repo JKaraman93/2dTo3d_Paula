@@ -1,0 +1,8 @@
+## Full Body ##
+
+h36m kps : ['HIP', 'R_HIP', 'R_KNEE', 'R_FOOT', 'L_ HIP', 'L_KNEE', 'L_FOOT', 'SPINE','THORAX',
+ 'NOSE', 'HEAD', 'L_SHOULDER', 'L_ELBOW', 'L_WRIST','R_SHOULDER', 'R_ELBOW', 'R_WRIST']
+ 
+coco kps : ['nose', 'left_eye', 'right_eye', 'left_ear', 'right_ear', 'left_shoulder',
+ 'right_shoulder',   'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip','right_hip', 
+ 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
