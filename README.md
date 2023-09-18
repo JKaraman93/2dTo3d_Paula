@@ -32,9 +32,19 @@ The thorax was lowered to the height of the shoulders, with a movement of -35 pi
 |*MpCoco*|70|29|42|35|72|31|38|41|75|31|46|35|72|33|38|38|72|32|45|35|
 |*Mp3D*|104|34|73|48|82|31|42|47|101|34|69|42|87|32|54|43|95|30|62|45|
 
-## Demo Instructions
-Run on Google Colab :
+## Visualization Instructions
 
+> run dash_results.py and follow the link `Dash is running on ...` to visualize the results of a specific approach for a video
 
+> -k openpose/ detectron/ mpcoco/ mp3d
 
+> --viz-subject EUDs1Front.mp4 / EUDs2Front.mp4/ EUDs3Front.mp4/ EUDs4Front.mp4/ EUDsFront.mp4 
+```
+dash_results.py -k openpose --viz-subject EUDs1Front.mp4
+```
+---
+> run dash_total.py to visualize the results of all approaches for a video
+```
+dash_total.py --viz-subject EUDs1Front.mp4
+```
 
