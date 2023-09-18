@@ -4,12 +4,12 @@
 
 
 ## Models
-|Approach | 2d Detector| 2d keypoints format(input) | 3d Reconstruction  | 3d keypoints format(output) |
+|Approach | 2D Detector| 2D keypoints format (input) | 3D Reconstruction  | 3D keypoints format (output) |
 | :-------------: | :-------------: |:-------------:| :-----:|:-----:|
-| *openpose*  | openpose[^1]  | H3.6m | Videopose3D(pretrained_h36m_cpn.bin) | H3.6m |
-| *detectron* | detectron | COCO[^2]  | Videopose3D(pretrained_h36m_detectron_coco.bin) | H3.6m |
-| *mpcoco* | mediapipe | COCO  | Videopose3D(pretrained_h36m_detectron_coco.bin) | H3.6m |
-| *mp3d* | mediapipe | COCO | mediapipe | H3.6m [^3]|
+| *OpenPose*  | OpenPose[^1]  | H3.6m | Videopose3D (pretrained_h36m_cpn.bin) | H3.6m |
+| *Detectron* | Keypoint-RCNN | COCO[^2]  | Videopose3D (pretrained_h36m_detectron_coco.bin) | H3.6m |
+| *MpCoco* | BlazePose | COCO  | Videopose3D (pretrained_h36m_detectron_coco.bin) | H3.6m |
+| *Mp3D* | BlazePose | COCO | BlazePose (GHUM) | H3.6m [^3]|
 
 [^1]: Midhip and Spine were artificially generated using information from adjacent keypoints.
 The thorax was lowered to the height of the shoulders, with a movement of -35 pixels.
