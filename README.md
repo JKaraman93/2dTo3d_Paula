@@ -34,7 +34,7 @@ The thorax was lowered to the height of the shoulders, with a movement of -35 pi
 
 ## Demo Instructions
 Run on Google Colab :
-https://colab.research.google.com/drive/1s7ASDuQjFfxZzCKvrpeWO1LBhn26Nd-u?usp=share_link
+
 
 
 
