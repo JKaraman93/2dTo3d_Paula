@@ -24,7 +24,7 @@ The thorax was lowered to the height of the shoulders, with a movement of -35 pi
 ## Results 
 > The research was focused on 6 keypoints, R/L Shoulder, R/L Elbow and R/L Wrist. 
 
-| Videos |EUDs1| | | |EUDs2| | ||EUDs3| | | |EUDs4| | ||EUDs5| | ||
+| Videos |EUDs1||| |EUDs2| | ||EUDs3| | | |EUDs4| | ||EUDs5| | ||
 | :---: |  :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 |Approaches |MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|
 |*openpose*|91|59|37|45|78|53|33|33|101|57|39|61|80|51|25|47|96|58|48|40|
