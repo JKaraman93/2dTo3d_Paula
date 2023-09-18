@@ -1,0 +1,7 @@
+The following files have to be located under the directory inference/[videoname] :
+
+[videoname].csv  # original 3d world coordinates
+[videoname]_Camspace.csv # 3d camera coords after transformation from world
+[videoname]_Rasterspace.csv #2d raster coords in pixel
+[videoname]_world.csv  # 3d world coordinates after modifications according to task
+[videoname]_world.npy # same as above in np array
