@@ -26,11 +26,11 @@ The thorax was lowered to the height of the shoulders, with a movement of -35 pi
 
 | Videos |EUDs1| | | |EUDs2| | ||EUDs3| | | |EUDs4| | ||EUDs5| | ||
 | :---: |  :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
-|Errors |MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|
+|Approaches |MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|MPJPE (mm)|x|y|z|
 |*openpose*|91|59|37|45|78|53|33|33|101|57|39|61|80|51|25|47|96|58|48|40|
-|*mp3d*|104|34|73|48|82|31|42|47|101|34|69|42|87|32|54|43|95|30|62|45|
 |*detectron*|73|30|38|44|81|33|35|56|78|32|43|43|75|33|32|50|83|33|47|49|
 |*mpcoco*|70|29|42|35|72|31|38|41|75|31|46|35|72|33|38|38|72|32|45|35|
+|*mp3d*|104|34|73|48|82|31|42|47|101|34|69|42|87|32|54|43|95|30|62|45|
 
 ## Demo Instructions
 Run on Google Colab :
