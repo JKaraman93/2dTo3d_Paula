@@ -32,19 +32,46 @@ The thorax was lowered to the height of the shoulders, with a movement of -35 pi
 |*MpCoco*|70|29|42|35|72|31|38|41|75|31|46|35|72|33|38|38|72|32|45|35|
 |*Mp3D*|104|34|73|48|82|31|42|47|101|34|69|42|87|32|54|43|95|30|62|45|
 
+## Installation Instructions
+> clone repo
+
+>install requirements
+
+## Pipeline 
+
+1. Run a 2D detector on a video. The 2D kps have to be stored in .npz file as shown in file 2D_Detections_format.txt
+```
+python mediapipe_2d.py --viz-subject EUDs1Front.mp4
+```
+2. Run VideoPose3D or mediapipe for 3D reconstruction 
+```
+python run.py -d custom -k openpose -arc 3,3,3,3,3 -c checkpoint --render --viz-subject EUDs1Front.mp4 --viz-action custom --viz-camera 0
+--viz-video inference\EUDs1Front\EUDs1Front.mp4 --viz-output output.mp4 --viz-export EUDs1Front_pred3d_cam.npy --viz-size 6
+```
+```
+python mediapipe_3d.py --viz-subject EUDs1Front.mp4
+```
+3. Calculate metrics and errors
+ ```
+python metrics_worlspace.py -k openpose --viz-subject EUDs1Front.mp4
+ ```
+
 ## Visualization Instructions
 
 > run dash_results.py and follow the link `Dash is running on ...` to visualize the results of a specific approach for a video
-
-> -k openpose/ detectron/ mpcoco/ mp3d
-
-> --viz-subject EUDs1Front.mp4 / EUDs2Front.mp4/ EUDs3Front.mp4/ EUDs4Front.mp4/ EUDsFront.mp4 
 ```
-dash_results.py -k openpose --viz-subject EUDs1Front.mp4
+python dash_results.py -k openpose --viz-subject EUDs1Front.mp4
 ```
----
 > run dash_total.py to visualize the results of all approaches for a video
 ```
-dash_total.py --viz-subject EUDs1Front.mp4
+python dash_total.py --viz-subject EUDs1Front.mp4
 ```
+---
+**NOTE**
+- -k openpose/ detectron/ mpcoco/ mp3d
+
+- --viz-subject EUDs1Front.mp4 / EUDs2Front.mp4/ EUDs3Front.mp4/ EUDs4Front.mp4/ EUDsFront.mp4
+
+- Where 'EUDs1Front' put the name of your video.  
+---
 
